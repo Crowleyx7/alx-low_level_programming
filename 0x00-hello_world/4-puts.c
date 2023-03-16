@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * Description: prints a statement
+ * prints a statement
  */
 int main(void)
 {
