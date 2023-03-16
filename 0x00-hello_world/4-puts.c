@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * prints a statement
- * prints a statement using the puts function
- * return success
+ * main - Entry point
+ * description: prints a statement
+ * @parameter: something
+ * return:always 0
  */
 int main(void)
 {
