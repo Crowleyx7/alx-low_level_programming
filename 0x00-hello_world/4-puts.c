@@ -2,6 +2,8 @@
 #include <string.h>
 /**
  * prints a statement
+ * prints a statement using the puts function
+ * return success
  */
 int main(void)
 {
