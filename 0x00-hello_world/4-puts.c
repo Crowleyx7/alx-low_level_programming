@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <string.h>
+/**
+ *main - Entry point 
+ *Description: 'prints a statement' 
+ * Return: Always 0 (Success) **/
 int main(void)
 {
 	char str1[100];
