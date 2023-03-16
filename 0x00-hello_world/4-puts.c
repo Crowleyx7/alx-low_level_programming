@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <string.h>
-/**Description:'prints a statement'*/
+/**
+ * Description: prints a statement
+ */
 int main(void)
 {
 	char str1[100];
