@@ -2,8 +2,7 @@
 #include <string.h>
 /**
  * main - Entry point
- * description: prints a statement
- * @parameter: something
+ * description: prints a statementg
  * return:always 0
  */
 int main(void)
