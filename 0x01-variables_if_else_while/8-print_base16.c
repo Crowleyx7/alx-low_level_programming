@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- * Main - prints all the number of base 16
+ * main - prints all the number of base 16
  *
  * Return: Always 0 (sucess)
  */
 int main(void)
 {
-	int num,ch;
+	int num, ch;
 
 	for (num = 0; num < 10; num++)
 	{
@@ -18,4 +18,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}	
+}
