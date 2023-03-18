@@ -12,15 +12,15 @@ int main(void)
 	{
 		for (num1 = 0; num1 < 10; num1++)
 		{
-			num %= 10;
-			putchar(num + '0');
-			num1 %= 10;
-			putchar(num1 + '0');
-			putchar(' ');
 			for (num2 = 0; num2 < 10; num2++)
 			{
-				for (num3 = 0; num3 < 10; num3++)
+				for (num3 = num2 + 1 ; num3 < 10; num3++)
 				{
+					num %= 10;
+					putchar(num + '0');
+					num1 %= 10;
+					putchar(num1 + '0');
+					putchar(' ');
 					num2 %= 10;
 					putchar(num2 + '0');
 					num3 %= 10;
@@ -30,13 +30,10 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-				}	
-			}	
+				}
+			}
 		}
 	}
-	
 	putchar('\n');
 	return (0);
 }
-
-
