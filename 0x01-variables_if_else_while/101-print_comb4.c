@@ -4,10 +4,10 @@
  *
  * Return: Always 0 (success)
  */
-int main (void)
+int main(void)
 {
 	int num, num1, num2;
-	
+
 	for (num = 0; num < 10; num++)
 	{
 		for (num1 = num + 1; num1 < 10; num1++)
@@ -20,7 +20,7 @@ int main (void)
 				putchar (num1 + '0');
 				num2 %= 10;
 				putchar (num2 + '0');
-				if ( num != 7 || num1 != 8 || num2 != 9)
+				if (num != 7 || num1 != 8 || num2 != 9)
 				{
 					putchar(',');
 					putchar(' ');
@@ -31,4 +31,3 @@ int main (void)
 	putchar('\n');
 	return (0);
 }
-
