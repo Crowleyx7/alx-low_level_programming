@@ -8,6 +8,6 @@ int _abs(int)
 {
 	int n;
 
-	if (a < 0)
-		a *= -1;
+	if (n < 0)
+		n *= -1;
 }
