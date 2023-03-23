@@ -6,7 +6,7 @@
  */
 int _isupper(int c)
 {
-	if (c = 'A'; a <= 'Z'; c++)
+	if (c = 'A'; c <= 'Z'; c++)
 	{
 		return (1);
 	}
