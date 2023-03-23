@@ -1,0 +1,17 @@
+#inculde "main.h"
+/**
+ * _isupper - checks for uppercase characters
+ * @c: gets checked
+ * Return: Always 0
+ */
+int _isupper(int c)
+{
+	int c;
+
+	if (c = 'A'; a <= 'Z'; c++)
+	{
+		return (1);
+	}
+	else 
+		return (0);
+}
