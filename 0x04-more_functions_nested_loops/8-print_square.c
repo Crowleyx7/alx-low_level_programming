@@ -1,11 +1,12 @@
 #include "main.h"
 /**
  * print_square - prints square
- * @size: gets checked 
+ * @size: gets checked
  */
 void print_square(int size)
 {
 	int i, j;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
