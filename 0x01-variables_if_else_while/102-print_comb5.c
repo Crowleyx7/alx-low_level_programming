@@ -21,7 +21,6 @@ int main(void)
 					num1 %= 10;
 					putchar(num1 + '0');
 					putchar(' ');
-
 					num2 %= 10;
 					putchar(num2 + '0');
 					num3 %= 10;
