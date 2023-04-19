@@ -1,1 +1,1 @@
-k
+static libraries
